@@ -41,6 +41,12 @@ jobs:
             docker pull "$remote_image:0.1.0" | tee "artifacts/pull-$remote_name.txt"
             docker manifest inspect "$remote_image:0.1.0" > "artifacts/manifest-$remote_name.json"
           done
+      - name: Ejecutar Compose desde la imagen publicada
+        shell: bash
+        run: |
+          set -euo pipefail
+          export WEB_IMAGE="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/friendlyhello:0.1.0"
+          python3 ci/verificar_registro.py
       - name: Guardar evidencias
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2

@@ -118,6 +118,17 @@ def main():
             "estado": "correcto", "replicas": 5, "peticiones": 20,
             "redis_persistente": True, "java_saludable": True, "java_usuario_no_root": True
         }, indent=2), encoding="utf-8")
+        summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+        if summary_path:
+            with open(summary_path, "a", encoding="utf-8") as summary:
+                summary.write("## Verificación del taller Docker\n\n")
+                summary.write("Cinco réplicas, veinte peticiones y persistencia de Redis: **correcto**.\n\n")
+                summary.write("## Aplicación Spring Boot en un contenedor\n\n")
+                summary.write("Estado de Docker y puerto publicado:\n\n```text\n")
+                summary.write((ARTIFACTS / "java-ps.txt").read_text())
+                summary.write("```\n\nRespuesta HTTP real del contenedor:\n\n```json\n")
+                summary.write(json.dumps([first, second], indent=2))
+                summary.write("\n```\n\nUsuario del contenedor:\n\n```text\n" + identity + "```\n")
         print("Verificación Docker completada.", flush=True)
     finally:
         command("compose-logs.txt", *dc, "logs", "--no-color")
