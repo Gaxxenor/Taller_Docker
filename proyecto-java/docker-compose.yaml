@@ -1,0 +1,10 @@
+name: taller-java
+services:
+  app:
+    build: .
+    image: taller-docker-java:0.1.0
+    ports:
+      - "127.0.0.1:8083:8080"
+    environment:
+      APP_NAME: ${APP_NAME:-Gabriel}
+    mem_limit: 512m

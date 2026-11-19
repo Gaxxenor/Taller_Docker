@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN useradd --system --no-create-home app
+RUN useradd --system --create-home app
 USER app
 
 ENV NAME=World
