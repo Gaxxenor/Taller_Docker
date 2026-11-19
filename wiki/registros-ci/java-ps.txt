@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS                   PORTS                      NAMES
+823f64b5a365   taller-docker-java:0.1.0   "java -XX:MaxRAMPerc…"   6 seconds ago   Up 6 seconds (healthy)   127.0.0.1:8083->8080/tcp   taller-ci-java

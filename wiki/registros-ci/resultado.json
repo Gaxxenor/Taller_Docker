@@ -1,0 +1,8 @@
+{
+  "estado": "correcto",
+  "replicas": 5,
+  "peticiones": 20,
+  "redis_persistente": true,
+  "java_saludable": true,
+  "java_usuario_no_root": true
+}

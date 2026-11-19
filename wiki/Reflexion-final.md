@@ -18,4 +18,4 @@ Ejecutar como `root` concede más permisos dentro del contenedor a un proceso co
 
 ## Relación con el proyecto
 
-La separación entre aplicación y base de datos, la configuración mediante variables de entorno y el endpoint de salud permiten reproducir un entorno de ejecución. Queda pendiente vincular estas decisiones con el proyecto Java concreto y con sus resultados verificados.
+La aplicación Java individual utiliza `APP_NAME` para configurar el saludo sin reconstruir la imagen y expone readiness mediante Actuator. La construcción multi-stage ejecuta dos pruebas HTTP antes de copiar el JAR al JRE; el contenedor resultante se verificó como `healthy` y con `uid=999(app)`. Su contador se reinicia con el proceso porque vive en memoria, a diferencia del contador compartido y persistente de Redis. Estas dos aplicaciones muestran cómo la elección de almacenamiento cambia el comportamiento al recrear o escalar contenedores.

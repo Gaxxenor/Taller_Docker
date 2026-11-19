@@ -20,12 +20,12 @@ En la ejecución `20261118-223124`, `14-balanceo-ps.txt` mostró cinco instancia
 
 Capturas posteriores en el navegador, con tres réplicas diferentes y el contador continuando:
 
-![Réplica con contador](imagenes/replica-1.jpg)
+![Réplica con contador](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/replica-1.jpg)
 
-![Segunda réplica con contador](imagenes/replica-2.jpg)
+![Segunda réplica con contador](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/replica-2.jpg)
 
-![Tercera réplica con contador](imagenes/replica-3.jpg)
+![Tercera réplica con contador](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/replica-3.jpg)
 
 El dashboard de Traefik 3.7.16 mostró tres routers y cuatro servicios habilitados, sin advertencias ni errores. También se guardó la respuesta real de `/api/http/services` en `traefik-servicios.json`.
 
-![Dashboard de Traefik](imagenes/dashboard.jpg)
+![Dashboard de Traefik](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/dashboard.jpg)

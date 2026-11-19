@@ -1,0 +1,3 @@
+NAME                         IMAGE                                  COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+taller-registro-ci-redis-1   redis:8.8                              "docker-entrypoint.s…"   redis     8 seconds ago   Up 8 seconds (healthy)   6379/tcp
+taller-registro-ci-web-1     ghcr.io/gaxxenor/friendlyhello:0.1.0   "gunicorn --bind 0.0…"   web       8 seconds ago   Up 2 seconds (healthy)   127.0.0.1:4004->8000/tcp

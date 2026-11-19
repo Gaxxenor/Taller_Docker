@@ -1,20 +1,27 @@
 # Publicación en un registro
 
-Docker Desktop muestra el usuario `gaxxenor`. El destino previsto es `gaxxenor/friendlyhello`, con etiquetas `0.1.0` y `latest`. Ambas deben asignarse a la misma construcción y enviarse mediante dos comandos `docker push`.
+Se utilizó **GitHub Container Registry (GHCR)**, alternativa contemplada en la Parte 3 de la guía. El workflow autentica la publicación con su `GITHUB_TOKEN` temporal y permiso `packages: write`.
 
-La publicación **no está verificada**. El enlace esperado, una vez publicada, es https://hub.docker.com/r/gaxxenor/friendlyhello . No se presenta como prueba de que la imagen exista actualmente.
+| Aplicación | Imagen | Etiquetas |
+| --- | --- | --- |
+| Flask y Redis | `ghcr.io/gaxxenor/friendlyhello` | `0.1.0`, `latest` |
+| Spring Boot | `ghcr.io/gaxxenor/taller-docker-java` | `0.1.0`, `latest` |
 
-## Ejercicio 1: usar la imagen propia
+Las páginas de [Flask](https://github.com/Gaxxenor/Taller_Docker/pkgs/container/friendlyhello) y [Java](https://github.com/Gaxxenor/Taller_Docker/pkgs/container/taller-docker-java) muestran ambas etiquetas y visibilidad **Public**. La [primera ejecución verificada](https://github.com/Gaxxenor/Taller_Docker/actions/runs/44455711403) publicó las dos imágenes y volvió a descargarlas correctamente con `docker pull`.
 
-`friendlyhello/docker-compose.registro.yaml` define `image: ${WEB_IMAGE:?...}` y no contiene `build`. Se puede seleccionar la imagen con:
+## Ejercicio 1 usar la imagen propia
+
+`friendlyhello/docker-compose.registro.yaml` define `image: ${WEB_IMAGE:?...}` y no contiene `build`:
 
 ```powershell
-$env:WEB_IMAGE = 'gaxxenor/friendlyhello:0.1.0'
+$env:WEB_IMAGE = 'ghcr.io/gaxxenor/friendlyhello:0.1.0'
 docker compose -f docker-compose.registro.yaml up -d --pull always --wait
 ```
 
-La opción `--pull always` permite comprobar que el despliegue usa una imagen disponible en el registro. Falta ejecutar después de publicar.
+La [ejecución 44455711403](https://github.com/Gaxxenor/Taller_Docker/actions/runs/44455711403) descargó esta imagen mediante `--pull always`, levantó el archivo de Compose sin `build` y mostró ambos servicios como `healthy`. Dos consultas incrementaron el contador de **1** a **2**. Se conservaron el [resultado del ejercicio](https://github.com/Gaxxenor/Taller_Docker/blob/main/wiki/registros-ci/registro-ejercicio-1.json), el [estado de los servicios](https://github.com/Gaxxenor/Taller_Docker/blob/main/wiki/registros-ci/registro-ps.txt) y la respuesta HTTP entre los artefactos de la ejecución.
 
-## Ejercicio 2: imagen de un compañero
+![Imagen pública con ambas etiquetas](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/registro.jpg)
 
-El trabajo se realiza individualmente y no se proporcionó una imagen de un compañero. El mismo archivo permite cambiar `WEB_IMAGE` por una imagen compatible que sirva en el puerto 8000 y use Redis como host `redis`. Se debe consultar con el docente si acepta una imagen de otro autor como alternativa. No se declara resuelto este ejercicio.
+## Ejercicio 2 imagen de un compañero
+
+El trabajo se realiza individualmente y no se proporcionó una imagen de un compañero. El mismo archivo permite cambiar `WEB_IMAGE` por una imagen compatible que sirva en el puerto 8000 y use Redis como host `redis`. Se debe aclarar con el docente si acepta una imagen de otro autor como alternativa. No se declara resuelto este ejercicio ni se inventa un compañero.

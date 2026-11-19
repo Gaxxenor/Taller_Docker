@@ -1,0 +1,8 @@
+{
+  "imagen": "ghcr.io/gaxxenor/friendlyhello:0.1.0",
+  "build": false,
+  "descarga": "--pull always",
+  "visita_1": 1,
+  "visita_2": 2,
+  "resultado": "correcto"
+}

@@ -12,6 +12,6 @@ En `20261118-223124`, los dos servicios aparecieron como `healthy`. Las respuest
 
 Las siguientes capturas del despliegue balanceado muestran el mismo contador compartido avanzando entre instancias:
 
-![Contador compartido en una réplica](imagenes/replica-1.jpg)
+![Contador compartido en una réplica](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/replica-1.jpg)
 
-![Contador compartido en otra réplica](imagenes/replica-2.jpg)
+![Contador compartido en otra réplica](https://raw.githubusercontent.com/wiki/Gaxxenor/Taller_Docker/imagenes/replica-2.jpg)

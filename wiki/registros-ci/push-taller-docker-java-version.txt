@@ -1,0 +1,58 @@
+The push refers to repository [ghcr.io/gaxxenor/taller-docker-java]
+900af53e9abc: Waiting
+7a48b8f0e5c7: Waiting
+f876527e6875: Waiting
+f44e2e21b3d1: Waiting
+0cd29446e044: Waiting
+eb378d10a5e1: Waiting
+b693b2ca441b: Waiting
+4cb63def9c24: Waiting
+d81024caa01b: Waiting
+d81024caa01b: Waiting
+900af53e9abc: Waiting
+7a48b8f0e5c7: Waiting
+f876527e6875: Waiting
+f44e2e21b3d1: Waiting
+0cd29446e044: Waiting
+eb378d10a5e1: Waiting
+b693b2ca441b: Waiting
+4cb63def9c24: Waiting
+b693b2ca441b: Waiting
+4cb63def9c24: Waiting
+d81024caa01b: Waiting
+900af53e9abc: Waiting
+7a48b8f0e5c7: Waiting
+f876527e6875: Waiting
+f44e2e21b3d1: Waiting
+0cd29446e044: Waiting
+eb378d10a5e1: Waiting
+4cb63def9c24: Waiting
+d81024caa01b: Waiting
+900af53e9abc: Waiting
+7a48b8f0e5c7: Waiting
+f876527e6875: Waiting
+f44e2e21b3d1: Waiting
+0cd29446e044: Waiting
+eb378d10a5e1: Waiting
+b693b2ca441b: Waiting
+d81024caa01b: Waiting
+900af53e9abc: Layer already exists
+7a48b8f0e5c7: Layer already exists
+f876527e6875: Waiting
+f44e2e21b3d1: Layer already exists
+0cd29446e044: Layer already exists
+eb378d10a5e1: Waiting
+b693b2ca441b: Waiting
+4cb63def9c24: Waiting
+f876527e6875: Waiting
+eb378d10a5e1: Layer already exists
+b693b2ca441b: Waiting
+4cb63def9c24: Waiting
+d81024caa01b: Waiting
+f876527e6875: Waiting
+d81024caa01b: Waiting
+4cb63def9c24: Pushed
+d81024caa01b: Pushed
+b693b2ca441b: Pushed
+f876527e6875: Pushed
+0.1.0: digest: sha256:030e45b3fc3876f8d999b42dd03f46ccddd1d7b31504d6ebea5f6738450b7c9d size: 856
