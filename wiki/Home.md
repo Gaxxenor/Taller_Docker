@@ -26,4 +26,8 @@ El [Google Docs de avance](https://docs.google.com/document/d/171rWU6I9vFtxM2iOo
 
 La [Wiki del repositorio](https://github.com/Gaxxenor/Taller_Docker/wiki) constituye la documentación oficial y esta carpeta mantiene una copia. El ejercicio de usar la imagen de un compañero queda sujeto a aclaración por la modalidad individual. La aplicación Java se creó para este taller, por lo que debe confirmarse su aceptación si el docente exige un proyecto previo del curso.
 
+## Archivos de entrega
+
+La carpeta de [informe y registros completos](https://github.com/Gaxxenor/Taller_Docker/tree/main/entrega) conserva las evidencias de las ejecuciones exitosas, las seis capturas enlazadas y el estado de cada requisito. Estos archivos permanecen en el repositorio aunque caduquen los artefactos temporales de Actions.
+
 Fuente: [guía del curso](https://github.com/CesarAVegaF312/DYAS-Docker), César Augusto Vega Fernández, Universidad de La Sabana; adaptación educativa CC BY-NC-SA 4.0. Partes basadas en Aula de Software Libre.

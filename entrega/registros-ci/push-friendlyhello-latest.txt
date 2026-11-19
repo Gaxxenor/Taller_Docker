@@ -1,0 +1,60 @@
+The push refers to repository [ghcr.io/gaxxenor/friendlyhello]
+c70b5a4bdd83: Waiting
+ce3c2a9291f8: Waiting
+969da26b9859: Waiting
+37fb86c2a767: Waiting
+0e665593ff40: Waiting
+a55a6f5832f2: Waiting
+075621fa4fde: Waiting
+32fdbbcfd1d9: Waiting
+d6d089a6c0a2: Waiting
+eb99ac3161c0: Waiting
+c70b5a4bdd83: Waiting
+ce3c2a9291f8: Waiting
+969da26b9859: Waiting
+37fb86c2a767: Waiting
+0e665593ff40: Waiting
+a55a6f5832f2: Waiting
+075621fa4fde: Waiting
+32fdbbcfd1d9: Waiting
+d6d089a6c0a2: Waiting
+eb99ac3161c0: Waiting
+ce3c2a9291f8: Waiting
+969da26b9859: Waiting
+37fb86c2a767: Waiting
+0e665593ff40: Waiting
+a55a6f5832f2: Waiting
+075621fa4fde: Waiting
+32fdbbcfd1d9: Waiting
+d6d089a6c0a2: Waiting
+eb99ac3161c0: Waiting
+c70b5a4bdd83: Waiting
+ce3c2a9291f8: Waiting
+969da26b9859: Waiting
+37fb86c2a767: Waiting
+0e665593ff40: Waiting
+a55a6f5832f2: Waiting
+075621fa4fde: Waiting
+32fdbbcfd1d9: Waiting
+d6d089a6c0a2: Waiting
+eb99ac3161c0: Waiting
+c70b5a4bdd83: Waiting
+c70b5a4bdd83: Waiting
+ce3c2a9291f8: Waiting
+969da26b9859: Waiting
+37fb86c2a767: Waiting
+0e665593ff40: Waiting
+a55a6f5832f2: Already exists
+075621fa4fde: Waiting
+32fdbbcfd1d9: Waiting
+d6d089a6c0a2: Layer already exists
+eb99ac3161c0: Waiting
+0e665593ff40: Layer already exists
+075621fa4fde: Layer already exists
+32fdbbcfd1d9: Layer already exists
+eb99ac3161c0: Layer already exists
+c70b5a4bdd83: Layer already exists
+ce3c2a9291f8: Layer already exists
+969da26b9859: Layer already exists
+37fb86c2a767: Layer already exists
+latest: digest: sha256:e7299fdcd99430a52238c010147115593914e0af3f0bca909f0cae77cf588bfa size: 856

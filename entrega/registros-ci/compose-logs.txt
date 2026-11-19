@@ -1,0 +1,181 @@
+web-3    | [2026-11-19 04:05:08 +0000] [1] [INFO] Starting gunicorn 26.2.0
+web-3    | [2026-11-19 04:05:08 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+web-3    | [2026-11-19 04:05:08 +0000] [1] [INFO] Using worker: sync
+web-3    | [2026-11-19 04:05:08 +0000] [6] [INFO] Booting worker with pid: 6
+web-3    | [2026-11-19 04:05:08 +0000] [7] [INFO] Booting worker with pid: 7
+web-3    | [2026-11-19 04:05:09 +0000] [1] [INFO] Control socket listening at /home/app/.gunicorn/gunicorn.ctl
+web-1    | [2026-11-19 04:05:08 +0000] [1] [INFO] Starting gunicorn 26.2.0
+redis-1  | Starting Redis Server
+web-1    | [2026-11-19 04:05:08 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+redis-1  | 1:C 19 Nov 2026 04:05:02.550 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+web-4    | [2026-11-19 04:05:08 +0000] [1] [INFO] Starting gunicorn 26.2.0
+redis-1  | 1:C 19 Nov 2026 04:05:02.551 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1  | 1:C 19 Nov 2026 04:05:02.551 * Redis version=8.8.4, bits=64, commit=00000000, modified=1, pid=1, just started
+redis-1  | 1:C 19 Nov 2026 04:05:02.551 * Configuration loaded
+web-4    | [2026-11-19 04:05:08 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+redis-1  | 1:M 19 Nov 2026 04:05:02.551 * monotonic clock: POSIX clock_gettime
+web-4    | [2026-11-19 04:05:08 +0000] [1] [INFO] Using worker: sync
+web-1    | [2026-11-19 04:05:08 +0000] [1] [INFO] Using worker: sync
+web-4    | [2026-11-19 04:05:08 +0000] [7] [INFO] Booting worker with pid: 7
+web-4    | [2026-11-19 04:05:08 +0000] [8] [INFO] Booting worker with pid: 8
+web-1    | [2026-11-19 04:05:08 +0000] [7] [INFO] Booting worker with pid: 7
+web-4    | [2026-11-19 04:05:08 +0000] [1] [INFO] Control socket listening at /home/app/.gunicorn/gunicorn.ctl
+redis-1  | 1:M 19 Nov 2026 04:05:02.551 * Running mode=standalone, port=6379.
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> RedisBloom version 8.8.3 (Git=unknown)
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> Registering configuration options: [
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ bf-error-rate       :      0.01 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ bf-initial-size     :       100 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ bf-expansion-factor :         2 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ cf-bucket-size      :         2 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ cf-initial-size     :      1024 }
+web-1    | [2026-11-19 04:05:08 +0000] [8] [INFO] Booting worker with pid: 8
+web-1    | [2026-11-19 04:05:09 +0000] [1] [INFO] Control socket listening at /home/app/.gunicorn/gunicorn.ctl
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ cf-max-iterations   :        20 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ cf-expansion-factor :         1 }
+web-5    | [2026-11-19 04:05:08 +0000] [1] [INFO] Starting gunicorn 26.2.0
+web-5    | [2026-11-19 04:05:08 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+web-5    | [2026-11-19 04:05:08 +0000] [1] [INFO] Using worker: sync
+web-5    | [2026-11-19 04:05:08 +0000] [8] [INFO] Booting worker with pid: 8
+web-5    | [2026-11-19 04:05:08 +0000] [9] [INFO] Booting worker with pid: 9
+web-5    | [2026-11-19 04:05:08 +0000] [1] [INFO] Control socket listening at /home/app/.gunicorn/gunicorn.ctl
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> 	{ cf-max-expansions   :        32 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * <bf> ]
+redis-1  | 1:M 19 Nov 2026 04:05:02.552 * Module 'bf' loaded from /usr/local/lib/redis/modules//redisbloom.so
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> search-workers default: 4 (min of MAX_WORKER_THREADS=16 and CPU cores)
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> Redis version found by RedisSearch : 8.8.4 - oss
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> RediSearch version 8.8.0 (Git=d2ae026)
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> Low level api version 1 initialized successfully
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> gc: ON, prefix min length: 2, min word length to stem: 4, prefix max expansions: 200, query timeout (ms): 500, timeout policy: return, oom policy: return, cursor read size: 1000, cursor max idle (ms): 300000, max doctable size: 1000000, max number of search results:  1000000, default scorer: BM25STD,
+web-2    | [2026-11-19 04:05:08 +0000] [1] [INFO] Starting gunicorn 26.2.0
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> Initialized thread pools!
+web-2    | [2026-11-19 04:05:08 +0000] [1] [INFO] Listening at: http://0.0.0.0:8000 (1)
+web-2    | [2026-11-19 04:05:08 +0000] [1] [INFO] Using worker: sync
+web-2    | [2026-11-19 04:05:08 +0000] [7] [INFO] Booting worker with pid: 7
+web-2    | [2026-11-19 04:05:08 +0000] [8] [INFO] Booting worker with pid: 8
+web-2    | [2026-11-19 04:05:08 +0000] [1] [INFO] Control socket listening at /home/app/.gunicorn/gunicorn.ctl
+redis-1  | 1:M 19 Nov 2026 04:05:02.555 * <search> Enabled workers threadpool of size 4
+redis-1  | 1:M 19 Nov 2026 04:05:02.558 * <search> Subscribe to config changes
+redis-1  | 1:M 19 Nov 2026 04:05:02.558 * <search> Subscribe to cluster slot migration events
+redis-1  | 1:M 19 Nov 2026 04:05:02.558 * <search> Enabled role change notification
+redis-1  | 1:M 19 Nov 2026 04:05:02.558 * <search> Cluster configuration: AUTO partitions, type: 0, coordinator timeout: 0ms
+redis-1  | 1:M 19 Nov 2026 04:05:02.558 * Module 'search' loaded from /usr/local/lib/redis/modules//redisearch.so
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> RedisTimeSeries version 80807, git_sha=5227e3cb03d42d1536eb48312f95fd08b40c9105
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> Redis version found by RedisTimeSeries : 8.8.4 - oss
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> Registering configuration options: [
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-compaction-policy   :              }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-num-threads         :            3 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-libmr-protocol      :     INTERNAL }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-retention-policy    :            0 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-duplicate-policy    :        block }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-chunk-size-bytes    :         4096 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-encoding            :   compressed }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-ignore-max-time-diff:            0 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> 	{ ts-ignore-max-val-diff :     0.000000 }
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> ]
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> Detected redis oss (cluster-enabled=no)
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> Subscribe to ASM events
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * <timeseries> Enabled diskless replication
+redis-1  | 1:M 19 Nov 2026 04:05:02.559 * Module 'timeseries' loaded from /usr/local/lib/redis/modules//redistimeseries.so
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Created new data type 'ReJSON-RL'
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> version: 80800 git sha: unknown branch: unknown
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V1 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V2 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V3 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V4 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V5 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V6 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Exported RedisJSON_V7 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Enabled diskless replication
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <ReJSON> Initialized shared string cache, thread safe: true.
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * Module 'ReJSON' loaded from /usr/local/lib/redis/modules//rejson.so
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * <search> Acquired RedisJSON_V7 API
+redis-1  | 1:M 19 Nov 2026 04:05:02.560 * Server initialized
+redis-1  | 1:M 19 Nov 2026 04:05:02.561 * BGSAVE done, 0 keys saved, 0 keys skipped, 88 bytes written.
+redis-1  | 1:M 19 Nov 2026 04:05:02.561 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+redis-1  | 1:M 19 Nov 2026 04:05:02.561 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+redis-1  | 1:M 19 Nov 2026 04:05:02.561 * Ready to accept connections tcp
+redis-1  | 1:M 19 Nov 2026 04:05:02.561 # WARNING: Redis does not require authentication and is not protected by network restrictions. Redis will accept connections from any IP address on any network interface.
+redis-1  | 1:signal-handler (1795061113) Received SIGTERM scheduling shutdown...
+redis-1  | 1:M 19 Nov 2026 04:05:13.495 * User requested shutdown...
+redis-1  | 1:M 19 Nov 2026 04:05:13.495 * Calling fsync() on the AOF file.
+redis-1  | 1:M 19 Nov 2026 04:05:13.495 * Saving the final RDB snapshot before exiting.
+redis-1  | 1:M 19 Nov 2026 04:05:13.495 * BGSAVE done, 1 keys saved, 0 keys skipped, 104 bytes written.
+redis-1  | 1:M 19 Nov 2026 04:05:13.495 * DB saved on disk
+redis-1  | 1:M 19 Nov 2026 04:05:13.496 # Redis is now ready to exit, bye bye...
+redis-1  | Starting Redis Server
+redis-1  | 1:C 19 Nov 2026 04:05:13.648 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+redis-1  | 1:C 19 Nov 2026 04:05:13.648 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1  | 1:C 19 Nov 2026 04:05:13.648 * Redis version=8.8.4, bits=64, commit=00000000, modified=1, pid=1, just started
+redis-1  | 1:C 19 Nov 2026 04:05:13.648 * Configuration loaded
+redis-1  | 1:M 19 Nov 2026 04:05:13.648 * monotonic clock: POSIX clock_gettime
+redis-1  | 1:M 19 Nov 2026 04:05:13.649 * Running mode=standalone, port=6379.
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> RedisBloom version 8.8.3 (Git=unknown)
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> Registering configuration options: [
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ bf-error-rate       :      0.01 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ bf-initial-size     :       100 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ bf-expansion-factor :         2 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ cf-bucket-size      :         2 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ cf-initial-size     :      1024 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ cf-max-iterations   :        20 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ cf-expansion-factor :         1 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> 	{ cf-max-expansions   :        32 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * <bf> ]
+redis-1  | 1:M 19 Nov 2026 04:05:13.650 * Module 'bf' loaded from /usr/local/lib/redis/modules//redisbloom.so
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> search-workers default: 4 (min of MAX_WORKER_THREADS=16 and CPU cores)
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Redis version found by RedisSearch : 8.8.4 - oss
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> RediSearch version 8.8.0 (Git=d2ae026)
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Low level api version 1 initialized successfully
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> gc: ON, prefix min length: 2, min word length to stem: 4, prefix max expansions: 200, query timeout (ms): 500, timeout policy: return, oom policy: return, cursor read size: 1000, cursor max idle (ms): 300000, max doctable size: 1000000, max number of search results:  1000000, default scorer: BM25STD,
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Initialized thread pools!
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Enabled workers threadpool of size 4
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Subscribe to config changes
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Subscribe to cluster slot migration events
+redis-1  | 1:M 19 Nov 2026 04:05:13.653 * <search> Enabled role change notification
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <search> Cluster configuration: AUTO partitions, type: 0, coordinator timeout: 0ms
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * Module 'search' loaded from /usr/local/lib/redis/modules//redisearch.so
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> RedisTimeSeries version 80807, git_sha=5227e3cb03d42d1536eb48312f95fd08b40c9105
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> Redis version found by RedisTimeSeries : 8.8.4 - oss
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> Registering configuration options: [
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-compaction-policy   :              }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-num-threads         :            3 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-libmr-protocol      :     INTERNAL }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-retention-policy    :            0 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-duplicate-policy    :        block }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-chunk-size-bytes    :         4096 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-encoding            :   compressed }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-ignore-max-time-diff:            0 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> 	{ ts-ignore-max-val-diff :     0.000000 }
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> ]
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> Detected redis oss (cluster-enabled=no)
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> Subscribe to ASM events
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * <timeseries> Enabled diskless replication
+redis-1  | 1:M 19 Nov 2026 04:05:13.654 * Module 'timeseries' loaded from /usr/local/lib/redis/modules//redistimeseries.so
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Created new data type 'ReJSON-RL'
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> version: 80800 git sha: unknown branch: unknown
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V1 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V2 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V3 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V4 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V5 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V6 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Exported RedisJSON_V7 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Enabled diskless replication
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <ReJSON> Initialized shared string cache, thread safe: true.
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * Module 'ReJSON' loaded from /usr/local/lib/redis/modules//rejson.so
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <search> Acquired RedisJSON_V7 API
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * Server initialized
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * <search> Loading event started
+redis-1  | 1:M 19 Nov 2026 04:05:13.655 * Reading RDB base file on AOF loading...
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * Loading RDB produced by version 8.8.4
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * RDB age 11 seconds
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * RDB memory usage when created 1.30 Mb
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * RDB is base AOF
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * Done loading RDB, keys loaded: 0, keys expired: 0.
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * <search> Draining workers thread pool with threshold 100
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.000 seconds
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * <search> Loading event ended successfully
+redis-1  | 1:M 19 Nov 2026 04:05:13.656 * DB loaded from append only file: 0.001 seconds
+redis-1  | 1:M 19 Nov 2026 04:05:13.658 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+redis-1  | 1:M 19 Nov 2026 04:05:13.658 * Ready to accept connections tcp
+redis-1  | 1:M 19 Nov 2026 04:05:13.658 # WARNING: Redis does not require authentication and is not protected by network restrictions. Redis will accept connections from any IP address on any network interface.

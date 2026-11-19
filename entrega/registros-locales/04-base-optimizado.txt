@@ -1,0 +1,51 @@
+#0 building with "desktop-linux" instance using docker driver
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 529B done
+#1 DONE 0.0s
+System.Management.Automation.RemoteException
+#2 [internal] load metadata for docker.io/library/python:3.14-slim
+#2 DONE 0.3s
+System.Management.Automation.RemoteException
+#3 [internal] load .dockerignore
+#3 transferring context: 137B done
+#3 DONE 0.0s
+System.Management.Automation.RemoteException
+#4 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#4 resolve docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f 0.0s done
+#4 DONE 0.0s
+System.Management.Automation.RemoteException
+#5 [internal] load build context
+#5 transferring context: 911B done
+#5 DONE 0.0s
+System.Management.Automation.RemoteException
+#6 [5/6] COPY . .
+#6 CACHED
+System.Management.Automation.RemoteException
+#7 [3/6] COPY requirements.txt .
+#7 CACHED
+System.Management.Automation.RemoteException
+#8 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+System.Management.Automation.RemoteException
+#9 [2/6] WORKDIR /app
+#9 CACHED
+System.Management.Automation.RemoteException
+#10 [6/6] RUN useradd --system --create-home app
+#10 CACHED
+System.Management.Automation.RemoteException
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:bfc52f467036b486ac638874db454ac00b5733a945c8ffa8e97c67d6da2379be done
+#11 exporting config sha256:b820fc044af1989532209db66240a22c9dcb078b81c22a212bd485a9c4accae6 done
+#11 exporting attestation manifest sha256:63610471f59ff53f2e1cda5a430932445e26c7fe054404daf913bf849c497c29
+#11 exporting attestation manifest sha256:63610471f59ff53f2e1cda5a430932445e26c7fe054404daf913bf849c497c29 0.0s done
+#11 exporting manifest list sha256:9f2b6d73107e2cc1c16ff56a83458471ec08a3d11456db20e1272bc1517012d4 0.0s done
+#11 naming to docker.io/library/friendlyhello:cache-optimizado done
+#11 unpacking to docker.io/library/friendlyhello:cache-optimizado done
+#11 DONE 0.1s
+System.Management.Automation.RemoteException
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/dv32pt2rosqmx2x6wjiny8k3v

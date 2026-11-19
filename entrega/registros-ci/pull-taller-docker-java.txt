@@ -1,0 +1,4 @@
+0.1.0: Pulling from gaxxenor/taller-docker-java
+Digest: sha256:030e45b3fc3876f8d999b42dd03f46ccddd1d7b31504d6ebea5f6738450b7c9d
+Status: Image is up to date for ghcr.io/gaxxenor/taller-docker-java:0.1.0
+ghcr.io/gaxxenor/taller-docker-java:0.1.0

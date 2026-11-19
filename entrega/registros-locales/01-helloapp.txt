@@ -1,0 +1,39 @@
+#0 building with "desktop-linux" instance using docker driver
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 84B done
+#1 DONE 0.0s
+System.Management.Automation.RemoteException
+#2 [internal] load metadata for docker.io/library/busybox:1.37
+#2 DONE 0.8s
+System.Management.Automation.RemoteException
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+System.Management.Automation.RemoteException
+#4 [1/3] FROM docker.io/library/busybox:1.37@sha256:a7dbc319b1438115a207e11930dc4bb3e643dcb3ec0bdd694bb36cd8fad289ec
+#4 resolve docker.io/library/busybox:1.37@sha256:a7dbc319b1438115a207e11930dc4bb3e643dcb3ec0bdd694bb36cd8fad289ec 0.0s done
+#4 DONE 0.0s
+System.Management.Automation.RemoteException
+#5 [internal] load build context
+#5 transferring context: 26B done
+#5 DONE 0.0s
+System.Management.Automation.RemoteException
+#6 [2/3] COPY hello /
+#6 CACHED
+System.Management.Automation.RemoteException
+#7 [3/3] RUN cat /hello
+#7 CACHED
+System.Management.Automation.RemoteException
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:1e749674f43004eb7c172e0055eaa81558866c84e91e91f9169e60aae8c48842 done
+#8 exporting config sha256:40741de1e34431b8ff8e4e09add605da9f3d0a8c63231bde68c19659756af032 done
+#8 exporting attestation manifest sha256:a82053e20d78f3a85f80790baa3a82003db86144fb76401a21a2cdd3860d393f 0.0s done
+#8 exporting manifest list sha256:600303d61bcc793b2871d4922865c4cbfeeafcc25e30ab7ba10c0e3a74d513e5 0.0s done
+#8 naming to docker.io/library/helloapp:v1
+#8 naming to docker.io/library/helloapp:v1 done
+#8 unpacking to docker.io/library/helloapp:v1 done
+#8 DONE 0.1s
+System.Management.Automation.RemoteException
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/zisk2tgqxcc4kwm7rriob2jn4

@@ -1,0 +1,8 @@
+NAME                  IMAGE                             COMMAND                  SERVICE   CREATED          STATUS                   PORTS
+taller-ci-redis-1     redis:8.8                         "docker-entrypoint.s…"   redis     10 seconds ago   Up 9 seconds (healthy)   6379/tcp
+taller-ci-traefik-1   traefik:v3.7                      "/entrypoint.sh --ap…"   traefik   10 seconds ago   Up 9 seconds             127.0.0.1:4000->4000/tcp, 80/tcp, 127.0.0.1:8080->8080/tcp
+taller-ci-web-1       friendlyhello:taller-verificado   "gunicorn --bind 0.0…"   web       10 seconds ago   Up 2 seconds (healthy)   8000/tcp
+taller-ci-web-2       friendlyhello:taller-verificado   "gunicorn --bind 0.0…"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp
+taller-ci-web-3       friendlyhello:taller-verificado   "gunicorn --bind 0.0…"   web       10 seconds ago   Up 2 seconds (healthy)   8000/tcp
+taller-ci-web-4       friendlyhello:taller-verificado   "gunicorn --bind 0.0…"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp
+taller-ci-web-5       friendlyhello:taller-verificado   "gunicorn --bind 0.0…"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp

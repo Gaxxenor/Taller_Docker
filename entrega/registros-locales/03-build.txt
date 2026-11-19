@@ -1,0 +1,126 @@
+#0 building with "desktop-linux" instance using docker driver
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 529B done
+#1 DONE 0.0s
+System.Management.Automation.RemoteException
+#2 [internal] load metadata for docker.io/library/python:3.14-slim
+#2 DONE 0.3s
+System.Management.Automation.RemoteException
+#3 [internal] load .dockerignore
+#3 transferring context: 137B done
+#3 DONE 0.0s
+System.Management.Automation.RemoteException
+#4 [internal] load build context
+#4 transferring context: 63B done
+#4 DONE 0.0s
+System.Management.Automation.RemoteException
+#5 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#5 resolve docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f 0.0s done
+#5 DONE 0.1s
+System.Management.Automation.RemoteException
+#5 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#5 sha256:ce3c2a9291f81f0f8349de8621c9878a424552bfc64d0e4f20a4ac6006489fe1 0B / 249B 0.2s
+#5 sha256:ce3c2a9291f81f0f8349de8621c9878a424552bfc64d0e4f20a4ac6006489fe1 249B / 249B 0.2s done
+#5 sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 0B / 12.41MB 0.3s
+#5 sha256:d6d089a6c0a2543e3dd748a4ffcbfe409ab93f2049d42640588be3a3f67acffe 0B / 1.29MB 0.2s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 0B / 29.86MB 0.2s
+#5 sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 2.10MB / 12.41MB 0.6s
+#5 sha256:d6d089a6c0a2543e3dd748a4ffcbfe409ab93f2049d42640588be3a3f67acffe 1.29MB / 1.29MB 0.7s done
+#5 sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 6.29MB / 12.41MB 0.9s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 2.10MB / 29.86MB 0.8s
+#5 sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 8.39MB / 12.41MB 1.1s
+#5 sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 10.49MB / 12.41MB 1.2s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 6.29MB / 29.86MB 1.1s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 8.39MB / 29.86MB 1.2s
+#5 sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 12.41MB / 12.41MB 1.5s done
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 12.58MB / 29.86MB 1.4s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 16.78MB / 29.86MB 1.7s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 20.97MB / 29.86MB 1.8s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 24.12MB / 29.86MB 2.0s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 26.21MB / 29.86MB 2.1s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 29.86MB / 29.86MB 2.3s
+#5 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 29.86MB / 29.86MB 2.3s done
+#5 extracting sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41
+#5 extracting sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 0.7s done
+#5 DONE 3.2s
+System.Management.Automation.RemoteException
+#5 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#5 extracting sha256:d6d089a6c0a2543e3dd748a4ffcbfe409ab93f2049d42640588be3a3f67acffe 0.1s done
+#5 DONE 3.3s
+System.Management.Automation.RemoteException
+#5 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#5 extracting sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574
+#5 extracting sha256:0e665593ff40197b851364fab0389fc6f5fa35bc74814ddfad07f96f417fc574 0.5s done
+#5 DONE 3.8s
+System.Management.Automation.RemoteException
+#5 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#5 extracting sha256:ce3c2a9291f81f0f8349de8621c9878a424552bfc64d0e4f20a4ac6006489fe1 0.0s done
+#5 DONE 3.8s
+System.Management.Automation.RemoteException
+#6 [2/6] WORKDIR /app
+#6 DONE 0.2s
+System.Management.Automation.RemoteException
+#7 [3/6] COPY requirements.txt .
+#7 DONE 0.0s
+System.Management.Automation.RemoteException
+#8 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#8 3.064 Collecting Flask==3.1.3 (from -r requirements.txt (line 1))
+#8 3.668   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+#8 3.913 Collecting redis==8.1.0 (from -r requirements.txt (line 2))
+#8 4.070   Downloading redis-8.1.0-py3-none-any.whl.metadata (16 kB)
+#8 4.289 Collecting gunicorn==26.2.0 (from -r requirements.txt (line 3))
+#8 4.444   Downloading gunicorn-26.2.0-py3-none-any.whl.metadata (5.5 kB)
+#8 4.610 Collecting blinker>=1.9.0 (from Flask==3.1.3->-r requirements.txt (line 1))
+#8 4.753   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+#8 4.937 Collecting click>=8.1.3 (from Flask==3.1.3->-r requirements.txt (line 1))
+#8 5.080   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+#8 5.238 Collecting itsdangerous>=2.2.0 (from Flask==3.1.3->-r requirements.txt (line 1))
+#8 5.383   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+#8 5.559 Collecting jinja2>=3.1.2 (from Flask==3.1.3->-r requirements.txt (line 1))
+#8 5.709   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#8 6.121 Collecting markupsafe>=2.1.1 (from Flask==3.1.3->-r requirements.txt (line 1))
+#8 6.273   Downloading markupsafe-3.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#8 6.453 Collecting werkzeug>=3.1.0 (from Flask==3.1.3->-r requirements.txt (line 1))
+#8 6.610   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+#8 6.757 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+#8 7.107 Downloading redis-8.1.0-py3-none-any.whl (560 kB)
+#8 7.437    ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöü 560.6/560.6 kB 2.2 MB/s  0:00:00
+#8 7.591 Downloading gunicorn-26.2.0-py3-none-any.whl (228 kB)
+#8 7.776 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+#8 7.934 Downloading click-8.5.1-py3-none-any.whl (126 kB)
+#8 8.100 Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+#8 8.240 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#8 8.435 Downloading markupsafe-3.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+#8 8.580 Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+#8 8.735 Installing collected packages: redis, markupsafe, itsdangerous, gunicorn, click, blinker, werkzeug, jinja2, Flask
+#8 9.982
+#8 9.983 Successfully installed Flask-3.1.3 blinker-1.9.0 click-8.5.1 gunicorn-26.2.0 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 redis-8.1.0 werkzeug-3.1.9
+#8 9.984 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#8 9.985
+#8 9.985 [notice] A new release of pip is available: 26.2.2 -> 26.3
+#8 9.985 [notice] To update, run: pip install --upgrade pip
+#8 DONE 10.2s
+System.Management.Automation.RemoteException
+#9 [5/6] COPY . .
+#9 DONE 0.0s
+System.Management.Automation.RemoteException
+#10 [6/6] RUN useradd --system --create-home app
+#10 DONE 0.4s
+System.Management.Automation.RemoteException
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 1.0s done
+#11 exporting manifest sha256:bfc52f467036b486ac638874db454ac00b5733a945c8ffa8e97c67d6da2379be 0.0s done
+#11 exporting config sha256:b820fc044af1989532209db66240a22c9dcb078b81c22a212bd485a9c4accae6 0.0s done
+#11 exporting attestation manifest sha256:c8c300d2866386ed5e023e1ae7dd49586f67af97eac97c41ed7bb5efd62cdd34 0.0s done
+#11 exporting manifest list sha256:27349df9f4702992bda5a9e07a24f4d99c5ff8639991c1e5c7e99c1baf58a132 0.0s done
+#11 naming to docker.io/library/friendlyhello:taller-verificado done
+#11 unpacking to docker.io/library/friendlyhello:taller-verificado
+#11 unpacking to docker.io/library/friendlyhello:taller-verificado 1.8s done
+#11 DONE 2.9s
+System.Management.Automation.RemoteException
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/s324y2on8ds8jwvzn12vkse32

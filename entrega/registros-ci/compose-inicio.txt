@@ -1,0 +1,102 @@
+ Image redis:8.8 Pulling
+ Image traefik:v3.7 Pulling
+ 30cf81fa565f Pulling fs layer 0B
+ a50cdb47fcd9 Pulling fs layer 0B
+ ce54642ab569 Pulling fs layer 0B
+ 881fc932939e Pulling fs layer 0B
+ b54f7f120a7b Pulling fs layer 0B
+ 206272dd7c45 Pulling fs layer 0B
+ 3541d125e12e Pulling fs layer 0B
+ 65ded5e5b114 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ db146b614050 Pulling fs layer 0B
+ 4f4fb700ef54 Already exists 0B
+ 30cf81fa565f Download complete 0B
+ b54f7f120a7b Download complete 0B
+ a50cdb47fcd9 Download complete 0B
+ ce54642ab569 Downloading 17.83MB
+ 881fc932939e Download complete 0B
+ 65ded5e5b114 Download complete 0B
+ db146b614050 Download complete 0B
+ 206272dd7c45 Downloading 12.58MB
+ 3541d125e12e Download complete 0B
+ 881fc932939e Extracting 1B
+ 3541d125e12e Extracting 1B
+ ce54642ab569 Downloading 42.99MB
+ 206272dd7c45 Download complete 0B
+ 881fc932939e Pull complete 0B
+ 65ded5e5b114 Pull complete 0B
+ 3541d125e12e Pull complete 0B
+ 206272dd7c45 Extracting 1B
+ 477c55628d1d Download complete 0B
+ ce54642ab569 Download complete 0B
+ 0dff70c95026 Downloading 1.049MB
+ fb44ef1c06a4 Download complete 0B
+ a50cdb47fcd9 Pull complete 0B
+ ce54642ab569 Extracting 1B
+ 206272dd7c45 Extracting 1B
+ 0dff70c95026 Download complete 0B
+ b75d4f622221 Download complete 0B
+ ce54642ab569 Extracting 1B
+ 206272dd7c45 Extracting 1B
+ ce54642ab569 Extracting 1B
+ 206272dd7c45 Extracting 1B
+ 4f4fb700ef54 Pull complete 0B
+ b54f7f120a7b Pull complete 0B
+ db146b614050 Pull complete 0B
+ 206272dd7c45 Pull complete 0B
+ Image redis:8.8 Pulled
+ ce54642ab569 Extracting 1B
+ ce54642ab569 Extracting 1B
+ ce54642ab569 Extracting 1B
+ 30cf81fa565f Pull complete 0B
+ ce54642ab569 Pull complete 0B
+ Image traefik:v3.7 Pulled
+ Network taller-ci_default Creating
+ Network taller-ci_default Created
+ Volume taller-ci_datos Creating
+ Volume taller-ci_datos Created
+ Container taller-ci-traefik-1 Creating
+ Container taller-ci-redis-1 Creating
+ Container taller-ci-redis-1 Created
+ Container taller-ci-traefik-1 Created
+ Container taller-ci-web-5 Creating
+ Container taller-ci-web-1 Creating
+ Container taller-ci-web-2 Creating
+ Container taller-ci-web-3 Creating
+ Container taller-ci-web-4 Creating
+ Container taller-ci-web-2 Created
+ Container taller-ci-web-1 Created
+ Container taller-ci-web-3 Created
+ Container taller-ci-web-4 Created
+ Container taller-ci-web-5 Created
+ Container taller-ci-traefik-1 Starting
+ Container taller-ci-redis-1 Starting
+ Container taller-ci-traefik-1 Started
+ Container taller-ci-redis-1 Started
+ Container taller-ci-redis-1 Waiting
+ Container taller-ci-redis-1 Healthy
+ Container taller-ci-web-4 Starting
+ Container taller-ci-web-4 Started
+ Container taller-ci-web-5 Starting
+ Container taller-ci-web-5 Started
+ Container taller-ci-web-2 Starting
+ Container taller-ci-web-2 Started
+ Container taller-ci-web-3 Starting
+ Container taller-ci-web-3 Started
+ Container taller-ci-web-1 Starting
+ Container taller-ci-web-1 Started
+ Container taller-ci-redis-1 Waiting
+ Container taller-ci-traefik-1 Waiting
+ Container taller-ci-web-4 Waiting
+ Container taller-ci-web-5 Waiting
+ Container taller-ci-web-2 Waiting
+ Container taller-ci-web-3 Waiting
+ Container taller-ci-web-1 Waiting
+ Container taller-ci-redis-1 Healthy
+ Container taller-ci-traefik-1 Healthy
+ Container taller-ci-web-4 Healthy
+ Container taller-ci-web-5 Healthy
+ Container taller-ci-web-2 Healthy
+ Container taller-ci-web-3 Healthy
+ Container taller-ci-web-1 Healthy

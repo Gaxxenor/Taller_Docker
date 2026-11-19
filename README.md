@@ -18,6 +18,8 @@ La aplicación Java pasó **2 pruebas HTTP, sin fallos ni errores**, generó un 
 
 Los registros y capturas relevantes están en `wiki/`. Los logs completos de cada ejecución de CI se pueden descargar desde sus artefactos en GitHub Actions.
 
+La carpeta [`entrega/`](entrega/README.md) reúne el informe, las seis capturas enlazadas y una copia permanente de todos los registros de las ejecuciones exitosas local y de CI. Incluye el estado frente a los requisitos y las dos salvedades de la modalidad individual.
+
 ## Ejecutar Flask y Redis
 
 Desde `friendlyhello/`:

@@ -1,0 +1,8 @@
+NAME                                            IMAGE                             COMMAND                  SERVICE   CREATED          STATUS                   PORTS
+taller-verificacion-20261118-223124-redis-1     redis:8.8                         "docker-entrypoint.sΓÇª"   redis     10 seconds ago   Up 9 seconds (healthy)   6379/tcp
+taller-verificacion-20261118-223124-traefik-1   traefik:v3.7                      "/entrypoint.sh --apΓÇª"   traefik   10 seconds ago   Up 9 seconds             127.0.0.1:4002->4000/tcp, 127.0.0.1:8082->8080/tcp
+taller-verificacion-20261118-223124-web-1       friendlyhello:taller-verificado   "gunicorn --bind 0.0ΓÇª"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp
+taller-verificacion-20261118-223124-web-2       friendlyhello:taller-verificado   "gunicorn --bind 0.0ΓÇª"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp
+taller-verificacion-20261118-223124-web-3       friendlyhello:taller-verificado   "gunicorn --bind 0.0ΓÇª"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp
+taller-verificacion-20261118-223124-web-4       friendlyhello:taller-verificado   "gunicorn --bind 0.0ΓÇª"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp
+taller-verificacion-20261118-223124-web-5       friendlyhello:taller-verificado   "gunicorn --bind 0.0ΓÇª"   web       10 seconds ago   Up 3 seconds (healthy)   8000/tcp

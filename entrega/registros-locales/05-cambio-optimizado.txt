@@ -1,0 +1,47 @@
+#0 building with "desktop-linux" instance using docker driver
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 529B done
+#1 DONE 0.0s
+System.Management.Automation.RemoteException
+#2 [internal] load metadata for docker.io/library/python:3.14-slim
+#2 DONE 0.4s
+System.Management.Automation.RemoteException
+#3 [internal] load .dockerignore
+#3 transferring context: 137B done
+#3 DONE 0.0s
+System.Management.Automation.RemoteException
+#4 [1/6] FROM docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+#4 resolve docker.io/library/python:3.14-slim@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f 0.0s done
+#4 DONE 0.0s
+System.Management.Automation.RemoteException
+#5 [internal] load build context
+#5 transferring context: 860B done
+#5 DONE 0.0s
+System.Management.Automation.RemoteException
+#6 [2/6] WORKDIR /app
+#6 CACHED
+System.Management.Automation.RemoteException
+#7 [3/6] COPY requirements.txt .
+#7 CACHED
+System.Management.Automation.RemoteException
+#8 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+System.Management.Automation.RemoteException
+#9 [5/6] COPY . .
+#9 DONE 0.2s
+System.Management.Automation.RemoteException
+#10 [6/6] RUN useradd --system --create-home app
+#10 DONE 0.3s
+System.Management.Automation.RemoteException
+#11 exporting to image
+#11 exporting layers 0.1s done
+#11 exporting manifest sha256:9a88ef63a6865e5120be082a333c3b5703a6c82741e1619386dbb8cbd8fcf371 0.0s done
+#11 exporting config sha256:0da2426c671a845f37d1b9ca69a2312235d4a14304c3f8bb7f9cb9bcfb5a0dcd 0.0s done
+#11 exporting attestation manifest sha256:819e018e36a4381c4ea62c951c14072d91ff2c208525fc8fad81deb2c3b5a395 0.0s done
+#11 exporting manifest list sha256:373dc953af9666287078e1569943d5b9975a187c0e5754374a6beaf516e2927a 0.0s done
+#11 naming to docker.io/library/friendlyhello:cache-optimizado done
+#11 unpacking to docker.io/library/friendlyhello:cache-optimizado 0.0s done
+#11 DONE 0.2s
+System.Management.Automation.RemoteException
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ymly7va2elgb6e7scz0l71y2d

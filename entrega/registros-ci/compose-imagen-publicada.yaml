@@ -1,0 +1,21 @@
+name: taller-registro
+services:
+  web:
+    image: ${WEB_IMAGE:?Defina WEB_IMAGE con usuario/friendlyhello:0.1.0}
+    ports:
+      - "127.0.0.1:4004:8000"
+    depends_on:
+      redis:
+        condition: service_healthy
+  redis:
+    image: redis:8.8
+    command: redis-server --appendonly yes
+    volumes:
+      - datos-registro:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+volumes:
+  datos-registro:

@@ -1,0 +1,4 @@
+0.1.0: Pulling from gaxxenor/friendlyhello
+Digest: sha256:e7299fdcd99430a52238c010147115593914e0af3f0bca909f0cae77cf588bfa
+Status: Image is up to date for ghcr.io/gaxxenor/friendlyhello:0.1.0
+ghcr.io/gaxxenor/friendlyhello:0.1.0

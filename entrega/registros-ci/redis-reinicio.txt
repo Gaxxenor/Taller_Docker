@@ -1,0 +1,2 @@
+ Container taller-ci-redis-1 Restarting
+ Container taller-ci-redis-1 Started

@@ -1,0 +1,20 @@
+services:
+  web:
+    image: friendlyhello:taller-verificado
+    ports:
+      - "127.0.0.1:4001:8000"
+    depends_on:
+      redis:
+        condition: service_healthy
+  redis:
+    image: redis:8.8
+    command: redis-server --appendonly yes
+    volumes:
+      - datos:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+volumes:
+  datos:
